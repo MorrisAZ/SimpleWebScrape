@@ -19,7 +19,7 @@ response.encoding = response.apparent_encoding
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # Extracting from the <title> tag within the <head> tag 
-#(this was found by examining the web page) and locating where the name could be found on page
+#this was found by examining the web page and locating where the name could be found on page
 title = soup.find('title').text.strip()
 print("Page Title:", title)
 

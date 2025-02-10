@@ -1,7 +1,7 @@
 #this script belongs to Morris Zuniga date: 07/01/2024.
 #this script uses beautifulSoup to scrape data from a web page
 #in This case we are scraping my github page for my name "Morris Zuniga" 
-#and writing the information found to as cs file
+#and writing the information found to a csv file
 
 from bs4 import BeautifulSoup
 import requests
